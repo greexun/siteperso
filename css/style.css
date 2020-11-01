@@ -12,6 +12,15 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+.container-fluid{
+    padding: 0;
+    
+}
+
+.container-fluid.about{
+    padding-top: 10px;
+}
+
 a,a:hover{
 
     text-decoration: none;
@@ -52,11 +61,100 @@ a,a:hover{
     color: #0070E8;
 }
 
-/* bannier */
+/* banniere */
+
+.banner{
+width: 100%;
+max-width: 100%;
+
+}
+
+.ban{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-banner{
+    position: absolute;
+    top: 44.7%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    color: black;
+    font-weight: bold;
+    text-shadow: 10px 10px 20px white;
+    
+
+}
+
+.inner-banner .btn-custom{
+    background-color: #1D2769;
+    color: white;
+    font-style: italic;
+
+}
+.inner-banner .btn-custom:hover{
+    background-color: #0070E8;
+    
+
+}
+.separator{
+    height: 3px;
+    width: 6%;
+    border: none;
+    box-shadow: none;
+    background-color: #1D2769 ;
+
+}
+
+
 
 /* about */
 
+#about{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.about article{
+margin-top: 5%;
+margin-bottom: 10%;
+
+
+}
+.about article h2{
+
+    text-align: center;
+}
+
 /* portfolio */
+
+.portfolio{
+    background-color: #eeeeee;
+    height: 800px;
+}
+
+#portfolio{
+
+    text-align: center;
+    
+    
+}
+
+
+
+.portfolio .item-folio {
+    height: 280px;
+    background-color: #1D2769;
+}
 
 /* contact */
 
