@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 /* font-family: 'Lato', sans-serif; */
+/* font-family: 'Josefin Sans', sans-serif; */
 
 body,html{
 
@@ -135,6 +136,11 @@ margin-bottom: 10%;
     text-align: center;
 }
 
+.about article p{
+    margin-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 /* portfolio */
 
 .portfolio{
@@ -157,4 +163,28 @@ margin-bottom: 10%;
 }
 
 /* contact */
+
+.footer{
+    background-color: grey;
+
+}
+
+#contact{
+
+    text-align: center;
+    color: white;
+
+}
+
+.formulaireContact{
+
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+
+
+}
+
+
+
 
